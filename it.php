@@ -3,7 +3,7 @@
  // [
    $myfile = fopen("file.txt","w");
    $text = $_GET["66"];
-   fwrite($myfile,66);
+   fprintf($myfile,66);
    fclose($myfile);
 //]
 ?>
