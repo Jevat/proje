@@ -180,7 +180,7 @@ function initMap() {
 
 // google map constructor input pass two opject option and html ui
   const map = new google.maps.Map(mapUi, option);
-  const map2 = new google.maps.Map(mapUi, option);
+ 
   //add marker for each location
  addMarker({
     croods: {
@@ -191,16 +191,6 @@ function initMap() {
     content: "<h1>Sylet</h1>"
  });
  
-  addMarker({
-    croods: {
-      lat: 31.1319,
-      lng: 32.4000
-    },
-    iconImage: "/marker.png",
-    content: "<h1>Sylet</h1>"
- });
-
-
 
 
  // add market fucntion 
