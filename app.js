@@ -6,8 +6,8 @@ function initMap() {
   const option = {
     zoom: 7,
     center: {
-      lat: 41.8103,
-      lng: 31.4125
+      lat: 23.8103,
+      lng: 23.4125
     },
     styles: [{
         "elementType": "geometry",
