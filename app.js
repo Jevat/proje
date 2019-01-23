@@ -186,8 +186,8 @@ function initMap() {
  
   addMarker({
     croods: {
-      lat: 31.1319,
-      lng: 23.4000
+      lat: 41.1319,
+      lng: 32.4000
     },
     iconImage: "/marker.png",
     content: "<h1>Sylet</h1>"
