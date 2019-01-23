@@ -192,16 +192,7 @@ function initMap() {
     iconImage: "/marker.png",
     content: "<h1>Sylet</h1>"
  });
- var dat1 = <?php echo $dat1 ?>; // 7
-  var dat2 = <?php echo $dat2 ?>; // 7
- addMarker({
-    croods: {
-      lat: dat1,
-      lng: dat2
-    },
-    iconImage: "/marker.png",
-    content: "<h1>Sylet</h1>"
- });
+
 
 
 
