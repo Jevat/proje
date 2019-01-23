@@ -179,7 +179,7 @@ function initMap() {
 
 
 // google map constructor input pass two opject option and html ui
-  const map = new google.maps.Map(32, 23);
+  const map = new google.maps.Map(mapUi, 23);
  
   //add marker for each location
  addMarker({
