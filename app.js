@@ -182,7 +182,14 @@ function initMap() {
   const map = new google.maps.Map(mapUi, option);
   const map2 = new google.maps.Map(mapUi, option);
   //add marker for each location
-
+ addMarker({
+    croods: {
+      lat: 41.1319,
+      lng: 32.4000
+    },
+    iconImage: "/marker.png",
+    content: "<h1>Sylet</h1>"
+ });
  
   addMarker({
     croods: {
