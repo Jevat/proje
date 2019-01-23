@@ -193,7 +193,7 @@ function initMap() {
  
   addMarker({
     croods: {
-      lat: 41.1319,
+      lat: 31.1319,
       lng: 32.4000
     },
     iconImage: "/marker.png",
