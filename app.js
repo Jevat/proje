@@ -184,7 +184,7 @@ function initMap() {
   //add marker for each location
  addMarker({
     croods: {
-       lat:42.1313,
+       lat:41.1319,
       lng: 32.40
       
     },
