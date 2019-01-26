@@ -1,0 +1,90 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.26.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: abduljawad kayali, kayali co, LIC=LSNLQ-NMJ1A-J6RQ9-4IY1X-XWRZU-CI24G
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.26.2.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.26.2.0
+Dialog DLL:      DCM.DLL V1.17.2.0
+Target DLL:      lmidk-agdi.dll V???
+Dialog DLL:      TCM.DLL V1.36.1.0
+ 
+<h2>Project:</h2>
+D:\project\ValvanoWareTM4C123\ValvanoWareTM4C123\Scanf_UART_4C123\scanf.uvprojx
+Project File Date:  01/20/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'scanf'
+assembling startup.s...
+compiling UART.c...
+compiling UART7.c...
+compiling main.c...
+main.c(57): warning:  #223-D: function "UART_OutChar" declared implicitly
+  		UART_OutChar('\n');
+main.c(61): warning:  #223-D: function "get_kordinat" declared implicitly
+  		get_kordinat();
+main.c(20): warning:  #550-D: variable "c"  was set but never used
+      char c;	
+main.c(113): warning:  #223-D: function "UART_OutChar" declared implicitly
+  	UART_OutChar('\n');
+main.c(547): warning:  #940-D: missing return statement at end of non-void function "gsm" 
+  }
+main.c(101): warning:  #550-D: variable "c"  was set but never used
+  	char c;
+main.c(573): warning:  #223-D: function "UART_OutChar" declared implicitly
+  							UART_OutChar(info[check]);
+main.c(575): warning:  #223-D: function "UART_OutChar" declared implicitly
+  						UART_OutChar('\n');
+main.c(586): warning:  #940-D: missing return statement at end of non-void function "get_kordinat" 
+  }
+main.c(624): warning:  #223-D: function "UART_OutChar" declared implicitly
+  	  UART_OutChar(c);
+main.c(646): warning:  #223-D: function "UART_OutChar" declared implicitly
+  		UART_OutChar(*pt);
+main.c(649): warning:  #223-D: function "UART_OutChar" declared implicitly
+  	UART_OutChar('\n');
+main.c(663): warning:  #223-D: function "UART_OutChar" declared implicitly
+  	  UART_OutChar(b);
+main.c: 13 warnings, 0 errors
+linking...
+Program Size: Code=2168 RO-data=32 RW-data=40 ZI-data=1976  
+FromELF: creating hex file...
+".\scanf.axf" - 0 Error(s), 13 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.4.0.pack
+                ARM.CMSIS.5.4.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.1.2
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.TM4C_DFP.1.1.0.pack
+                Keil.TM4C_DFP.1.1.0
+                Texas Instruments Tiva C Series Device Support and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_scanf
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include
+  C:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.1.2
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

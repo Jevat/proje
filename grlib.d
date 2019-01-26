@@ -1,0 +1,1 @@
+.\grlib.o: grlib.c

@@ -1,0 +1,13 @@
+.\8420.main.o: ..\dene\8420.main.c
+.\8420.main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\8420.main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\8420.main.o: ..\inc/hw_memmap.h
+.\8420.main.o: ..\inc/hw_types.h
+.\8420.main.o: ..\driverlib/gpio.h
+.\8420.main.o: ..\driverlib/pin_map.h
+.\8420.main.o: ..\driverlib/sysctl.h
+.\8420.main.o: ..\driverlib/uart.h
+.\8420.main.o: ..\inc/hw_ints.h
+.\8420.main.o: ..\driverlib/interrupt.h
+.\8420.main.o: ..\utils/uartstdio.h
+.\8420.main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h

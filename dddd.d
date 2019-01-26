@@ -1,0 +1,1 @@
+.\dddd.o: dddd.c
