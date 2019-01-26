@@ -1,0 +1,8 @@
+scanf-UART adili dosya içinde keil programý bulunmaktadýr
+açabilmek için ARM kütüphanesinin KEÝL programýn tabanýna yüklenmiþ olmalý
+
+web sayfanýn kodlarý github sayfamda yüklü ordan isteyen göre bilir 
+
+https://github.com/Jevat
+
+ayrýca projenin deðer  programlarý o sitede paylaþmaktayým
